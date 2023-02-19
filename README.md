@@ -2,7 +2,7 @@
 
 # Database Schema
 ## User
-id, String name, String password, List<Map<Product.id, quantity> cart, List<id> history
+id, String name, String password, bool role, List<Map<Product.id, quantity> cart, List<id> history
 ## Product
 id, String name, int quantity (available to buy), double price, String imgURL, String category
 ## Category
